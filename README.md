@@ -1,5 +1,5 @@
 # EltekController
-[![Build Status](https://travis-ci.com/neg2led/hpe-flexlom.svg?branch=master)](https://travis-ci.com/neg2led/hpe-flexlom)
+[![Build Status](https://travis-ci.com/neg2led/esp32-cantroller.svg?branch=master)](https://travis-ci.com/neg2led/esp32-cantroller)
 
 ![KiCad raytraced board render](EltekController/EltekController2.png)
 
