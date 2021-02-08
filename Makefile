@@ -2,6 +2,7 @@
 
 BOARDS = EltekController EltekController-panel
 GITREPO = https://github.com/neg2led/esp32-cantroller.git
+JLCFAB_IGNORE = H1,H2,H3,H4,J1,JP2,J2,PS1
 
 BOARDSFILES = $(addprefix build/, $(BOARDS:=.kicad_pcb))
 SCHFILES = $(addprefix build/, $(BOARDS:=.sch))
@@ -15,11 +16,17 @@ all: $(GERBERS) $(JLCGERBERS) build/web/index.html
 build/EltekController.kicad_pcb: EltekController/EltekController.kicad_pcb build
 	kikit panelize extractboard -s 110 60 55 40 $< $@
 
+build/EltekController.sch: EltekController/EltekController.kicad_pcb build
+	cp EltekController/EltekController.sch $@
+
 build/EltekController-panel.kicad_pcb: build/EltekController.kicad_pcb build
 	kikit panelize grid --space 3 --gridsize 2 2 \
         --tabwidth 4 --tabheight 4 --htabs 1 --vtabs 1 \
         --panelsize 135 135 --framecutH \
         --mousebites 1 0.5 0.25 --radius $(RADIUS) $< $@
+
+build/EltekController-panel.sch: EltekController/EltekController.kicad_pcb build
+	cp EltekController/EltekController.sch $@
 
 %-gerber: %.kicad_pcb
 	kikit export gerber $< $@
@@ -27,8 +34,8 @@ build/EltekController-panel.kicad_pcb: build/EltekController.kicad_pcb build
 %-gerber.zip: %-gerber
 	zip -j $@ `find $<`
 
-%-jlcpcb: %.kicad_pcb
-	kikit fab jlcpcb --no-assembly $< $@
+%-jlcpcb: %.sch %.kicad_pcb
+	kikit fab jlcpcb --assembly --ignore $(JLCFAB_IGNORE) --schematic $^ $@
 
 %-jlcpcb.zip: %-jlcpcb
 	zip -j $@ `find $<`
