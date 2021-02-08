@@ -1,7 +1,7 @@
 # EltekController
 [![Build Status](https://travis-ci.com/neg2led/esp32-cantroller.svg?branch=master)](https://travis-ci.com/neg2led/esp32-cantroller)
 
-![KiCad raytraced board render](EltekController/EltekController2.png)
+![KiCad raytraced board render](EltekController/EltekController.png)
 
 This is a little board I whipped up to connect to my [Eltek Flatpack2 Breakout Board](https://github.com/neg2led/EltekFlatpack2) but it should be useful as a general CANBUS control board with wide voltage input.
 
