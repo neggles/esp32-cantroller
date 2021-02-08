@@ -13,12 +13,12 @@ RADIUS=0.75
 all: $(GERBERS) $(JLCGERBERS) build/web/index.html
 
 build/EltekController.kicad_pcb: EltekController/EltekController.kicad_pcb build
-	kikit panelize extractboard -s 79.35 123.20 96.3 30.250 $< $@
+	kikit panelize extractboard -s 110 60 55 40 $< $@
 
 build/EltekController-panel.kicad_pcb: build/EltekController.kicad_pcb build
 	kikit panelize grid --space 3 --gridsize 2 2 \
         --tabwidth 4 --tabheight 4 --htabs 1 --vtabs 1 \
-        --panelsize 150 100 --framecutH \
+        --panelsize 135 135 --framecutH \
         --mousebites 1 0.5 0.25 --radius $(RADIUS) $< $@
 
 %-gerber: %.kicad_pcb
