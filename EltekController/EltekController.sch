@@ -157,6 +157,7 @@ F 0 "Q1" V 2135 5400 50  0000 C CNN
 F 1 "UMH3N" V 2226 5400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1805 4960 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 1950 5400 50  0001 C CNN
+F 4 "C123008" H 1800 5400 50  0001 C CNN "LCSC"
 	2    1800 5400
 	0    1    1    0   
 $EndComp
@@ -168,6 +169,7 @@ F 0 "Q1" V 1535 5400 50  0000 C CNN
 F 1 "UMH3N" V 1626 5400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1205 4960 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 1350 5400 50  0001 C CNN
+F 4 "C123008" H 1200 5400 50  0001 C CNN "LCSC"
 	1    1200 5400
 	0    -1   1    0   
 $EndComp
@@ -836,6 +838,7 @@ F 0 "C2" H 7800 2100 50  0000 L CNN
 F 1 "1uF" H 7800 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7788 1850 50  0001 C CNN
 F 3 "~" H 7750 2000 50  0001 C CNN
+F 4 "C52923" H 7750 2000 50  0001 C CNN "LCSC"
 	1    7750 2000
 	-1   0    0    -1  
 $EndComp
