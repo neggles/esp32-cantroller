@@ -53,6 +53,7 @@ out/
 
 # Build outputs
 build
+fab
 
 # MS Excel lock files
 .~lock.*
