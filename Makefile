@@ -21,7 +21,7 @@ build/EltekController.sch: EltekController/EltekController.kicad_pcb build
 
 build/EltekController-panel.kicad_pcb: build/EltekController.kicad_pcb build
 	kikit panelize tightgrid \
-		--gridsize 2 2 --space 3 --panelsize 120 100 --mousebites 0.5 1 0.25 \
+		--gridsize 2 2 --space 3 --panelsize 125 96 --mousebites 0.5 1 0.25 \
 		--vtabs 1 --htabs 1 --tabwidth 5 --tabheight 5 \
 		--fiducials 10 2.5 1 2 --tooling 5 2.5 1.5 \
 		--radius $(RADIUS) $< $@
