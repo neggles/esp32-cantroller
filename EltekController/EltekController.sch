@@ -115,10 +115,10 @@ F 3 "" H 2700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JP2
+L Jumper:SolderJumper_3_Open JP1
 U 1 1 604C9D7D
 P 3000 5250
-F 0 "JP2" H 3000 5454 50  0000 C CNN
+F 0 "JP1" H 3000 5454 50  0000 C CNN
 F 1 "VDISP" H 3000 5363 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3000 5250 50  0001 C CNN
 F 3 "~" H 3000 5250 50  0001 C CNN
