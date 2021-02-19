@@ -1,8 +1,6 @@
 # EltekController
 [![Build Status](https://travis-ci.com/neg2led/esp32-cantroller.svg?branch=master)](https://travis-ci.com/neg2led/esp32-cantroller)
 
-![KiCad raytraced board render](EltekController/EltekController.png)
-
 This is a little board I whipped up to connect to my [Eltek Flatpack2 Breakout Board](https://github.com/neg2led/EltekFlatpack2) but it should be useful as a general CANBUS control board with wide voltage input.
 
 Board uses a standard SIP8-ish isolated DC-DC converter module, there's a lot of these to choose from. Most of the parts on the board are outfitted with their LCSC code for KiKit's JLCPCB SMT fab autogeneration.
@@ -10,6 +8,9 @@ Board uses a standard SIP8-ish isolated DC-DC converter module, there's a lot of
 Designed to be used either via a WiFi/Bluetooth remote interface, with a Nextion HMI, or a cheap I2C OLED (if single-button control with just a status readout is all you need).
 
 I've probably made some really bad design choices here, please don't judge me.
+
+![KiCad raytraced board render](assets/EltekController.png)
+
 
 ## Repository Structure
 - `EltekController` contains the main schematics and board drawing
