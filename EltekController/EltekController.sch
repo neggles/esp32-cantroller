@@ -22,7 +22,7 @@ F 1 "CANBUS" H 10100 1150 50  0000 L CNN
 F 2 "1 My Footprints:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical_Horizontal_Combined" H 10000 1250 50  0001 C CNN
 F 3 "~" H 10000 1250 50  0001 C CNN
 	1    10000 1250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+48V #PWR01
@@ -32,8 +32,8 @@ F 0 "#PWR01" H 9750 700 50  0001 C CNN
 F 1 "+48V" H 9750 1000 50  0000 C CNN
 F 2 "" H 9750 850 50  0001 C CNN
 F 3 "" H 9750 850 50  0001 C CNN
-	1    9750 850
-	1    0    0    -1
+	1    9750 850 
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
@@ -47,7 +47,7 @@ F 4 "C22787" H 9200 1450 50  0001 C CNN "LCSC"
 F 5 "Uniroyal Elec" H 9200 1450 50  0001 C CNN "Manufacturer"
 F 6 "0603WAF1200T5E" H 9200 1450 50  0001 C CNN "MPN"
 	1    9200 1450
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR014
@@ -58,7 +58,7 @@ F 1 "+3V3" H 3515 5473 50  0000 C CNN
 F 2 "" H 3500 5300 50  0001 C CNN
 F 3 "" H 3500 5300 50  0001 C CNN
 	1    3500 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:UMH3N Q1
@@ -70,7 +70,7 @@ F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1805 3510 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 1950 3950 50  0001 C CNN
 F 4 "C123008" H 1800 3950 50  0001 C CNN "LCSC"
 	2    1800 3950
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_BJT:UMH3N Q1
@@ -82,7 +82,7 @@ F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1205 3510 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf" H 1350 3950 50  0001 C CNN
 F 4 "C123008" H 1200 3950 50  0001 C CNN "LCSC"
 	1    1200 3950
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Text Label 950  4150 2    50   ~ 0
 ~RST
@@ -129,7 +129,7 @@ F 1 "+48V" H 1015 5473 50  0000 C CNN
 F 2 "" H 1000 5300 50  0001 C CNN
 F 3 "" H 1000 5300 50  0001 C CNN
 	1    1000 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
@@ -140,7 +140,7 @@ F 1 "GND" H 2500 6100 50  0000 C CNN
 F 2 "" H 2500 6250 50  0001 C CNN
 F 3 "" H 2500 6250 50  0001 C CNN
 	1    2500 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0109
@@ -151,7 +151,7 @@ F 1 "GNDPWR" H 9750 1600 50  0000 C CNN
 F 2 "" H 9750 1700 50  0001 C CNN
 F 3 "" H 9750 1700 50  0001 C CNN
 	1    9750 1750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0111
@@ -162,7 +162,7 @@ F 1 "GNDPWR" H 1004 6096 50  0000 C CNN
 F 2 "" H 1000 6200 50  0001 C CNN
 F 3 "" H 1000 6200 50  0001 C CNN
 	1    1000 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0113
@@ -173,7 +173,7 @@ F 1 "+5V" H 2515 5473 50  0000 C CNN
 F 2 "" H 2500 5300 50  0001 C CNN
 F 3 "" H 2500 5300 50  0001 C CNN
 	1    2500 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C10
@@ -187,7 +187,7 @@ F 4 "C13832" H 1000 5750 50  0001 C CNN "LCSC"
 F 5 "CL31B105KCHNNNE" H 1000 5750 50  0001 C CNN "MPN"
 F 6 "Samsung" H 1000 5750 50  0001 C CNN "Manufacturer"
 	1    1000 5750
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:USB_B_Micro USB1
@@ -202,7 +202,7 @@ F 5 "XKB Connectivity" H 1000 1700 50  0001 C CNN "Manufacturer"
 F 6 "U254-051T-4BH23-S2B" H 1000 1700 50  0001 C CNN "MPN"
 F 7 "0; 0; 90" H 1000 1700 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    1000 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 2100 1000 2150
@@ -224,7 +224,7 @@ F 1 "GND" H 955 2077 50  0000 C CNN
 F 2 "" H 950 2250 50  0001 C CNN
 F 3 "" H 950 2250 50  0001 C CNN
 	1    950  2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 1300 1900
 $Comp
@@ -236,7 +236,7 @@ F 1 "+3V3" H 7915 4473 50  0000 C CNN
 F 2 "" H 7900 4300 50  0001 C CNN
 F 3 "" H 7900 4300 50  0001 C CNN
 	1    7900 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7900 4300 7900 4400
@@ -252,7 +252,7 @@ F 4 "C14663" H 8100 4600 50  0001 C CNN "LCSC"
 F 5 "CC0603KRX7R9BB104" H 8100 4600 50  0001 C CNN "MPN"
 F 6 "Yageo" H 8100 4600 50  0001 C CNN "Manufacturer"
 	1    8100 4600
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7700 4700 7700 4800
@@ -278,7 +278,7 @@ F 1 "GND" H 7905 4727 50  0000 C CNN
 F 2 "" H 7900 4900 50  0001 C CNN
 F 3 "" H 7900 4900 50  0001 C CNN
 	1    7900 4900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7900 4800 7900 4900
@@ -299,11 +299,11 @@ Wire Notes Line
 Text Notes 600  6650 0    79   ~ 0
 Power Supply
 Wire Notes Line
-	4450 3200 4450 550
+	4450 3200 4450 550 
 Text Notes 600  3150 0    79   ~ 0
 USB to TTL Serial
 Wire Notes Line
-	4450 550  550  550
+	4450 550  550  550 
 Wire Notes Line
 	4450 3200 550  3200
 Wire Notes Line
@@ -335,7 +335,7 @@ Text Label 3350 1800 0    50   ~ 0
 UART_TX
 Text Label 3350 1700 0    50   ~ 0
 UART_RX
-NoConn ~ 2750 900
+NoConn ~ 2750 900 
 $Comp
 L power:+3V3 #PWR07
 U 1 1 6054FF7D
@@ -344,8 +344,8 @@ F 0 "#PWR07" H 2550 650 50  0001 C CNN
 F 1 "+3V3" H 2550 950 50  0000 C CNN
 F 2 "" H 2550 800 50  0001 C CNN
 F 3 "" H 2550 800 50  0001 C CNN
-	1    2550 800
-	1    0    0    -1
+	1    2550 800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 1700 1800 1800
@@ -364,7 +364,7 @@ F 1 "GND" H 2550 2750 50  0000 C CNN
 F 2 "" H 2550 2900 50  0001 C CNN
 F 3 "" H 2550 2900 50  0001 C CNN
 	1    2550 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 1850 2300
 NoConn ~ 1850 2200
@@ -385,7 +385,7 @@ F 3 "https://www.silabs.com/documents/public/data-sheets/cp2104.pdf" H 2000 3050
 F 4 "C47742" H 2550 1800 50  0001 C CNN "LCSC"
 F 5 "0; 0; 270" H 2550 1800 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    2550 1800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 1700 1300 1700
@@ -406,7 +406,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/TJA1051.pdf" H 8550 1300 50  0001 C
 F 4 "C38695" H 8550 1300 50  0001 C CNN "LCSC"
 F 5 "0; 0; 270" H 8550 1300 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    8550 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR03
@@ -416,8 +416,8 @@ F 0 "#PWR03" H 8550 650 50  0001 C CNN
 F 1 "+5V" H 8550 950 50  0000 C CNN
 F 2 "" H 8550 800 50  0001 C CNN
 F 3 "" H 8550 800 50  0001 C CNN
-	1    8550 800
-	1    0    0    -1
+	1    8550 800 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -428,7 +428,7 @@ F 1 "GND" H 8550 1750 50  0000 C CNN
 F 2 "" H 8550 1900 50  0001 C CNN
 F 3 "" H 8550 1900 50  0001 C CNN
 	1    8550 1900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8000 1200 2    50   ~ 0
 CAN_RX
@@ -445,9 +445,9 @@ Wire Wire Line
 Wire Wire Line
 	9550 1350 9800 1350
 Wire Notes Line
-	10450 2200 10450 550
+	10450 2200 10450 550 
 Wire Notes Line
-	10450 550  7300 550
+	10450 550  7300 550 
 Wire Notes Line
 	7300 550  7300 2200
 Wire Notes Line
@@ -485,7 +485,7 @@ F 4 "C25744" H 5150 1600 50  0001 C CNN "LCSC"
 F 5 "" H 5150 1600 50  0001 C CNN "PN"
 F 6 "0402WGF1002TCE" H 5150 1600 50  0001 C CNN "MPN"
 	1    5150 1600
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Text Label 3200 3800 2    50   ~ 0
 ~RST
@@ -499,7 +499,7 @@ F 2 "1 My Footprints:SW_Push_1P1T-SH_NO_CK_KMR2xxG_3D" H 3500 4450 50  0001 C CN
 F 3 "~" H 3500 4450 50  0001 C CNN
 F 4 "C557592" H 3500 4250 50  0001 C CNN "LCSC"
 	1    3500 4250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Label 3200 4250 2    50   ~ 0
 ~BOOT
@@ -513,7 +513,7 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 1850 50  0001 C CNN
 F 3 "~" H 5150 2000 50  0001 C CNN
 F 4 "C52923" H 5150 2000 50  0001 C CNN "LCSC"
 	1    5150 2000
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Notes 7350 5400 0    79   ~ 0
 Extra Filter
@@ -527,7 +527,7 @@ F 2 "1 My Footprints:SW_Push_1P1T-SH_NO_CK_KMR2xxG_3D" H 3500 4000 50  0001 C CN
 F 3 "~" H 3500 4000 50  0001 C CNN
 F 4 "C557592" H 3500 3800 50  0001 C CNN "LCSC"
 	1    3500 3800
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
@@ -538,7 +538,7 @@ F 1 "MP" H 3100 7208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 3000 7250 50  0001 C CNN
 F 3 "~" H 3000 7250 50  0001 C CNN
 	1    3000 7250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -549,7 +549,7 @@ F 1 "MP" H 2600 7208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 2500 7250 50  0001 C CNN
 F 3 "~" H 2500 7250 50  0001 C CNN
 	1    2500 7250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -560,7 +560,7 @@ F 1 "MP" H 1600 7208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 1500 7250 50  0001 C CNN
 F 3 "~" H 1500 7250 50  0001 C CNN
 	1    1500 7250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR011
@@ -571,7 +571,7 @@ F 1 "GND" H 2500 7350 50  0000 C CNN
 F 2 "" H 2500 7500 50  0001 C CNN
 F 3 "" H 2500 7500 50  0001 C CNN
 	1    2500 7500
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR012
@@ -582,7 +582,7 @@ F 1 "GNDPWR" H 1500 7350 50  0000 C CNN
 F 2 "" H 1500 7450 50  0001 C CNN
 F 3 "" H 1500 7450 50  0001 C CNN
 	1    1500 7500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0110
@@ -593,7 +593,7 @@ F 1 "+3V3" H 10115 4323 50  0000 C CNN
 F 2 "" H 10100 4150 50  0001 C CNN
 F 3 "" H 10100 4150 50  0001 C CNN
 	1    10100 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CustomDevice:R_Pack04_Split RN1
@@ -606,7 +606,7 @@ F 3 "" H 9300 4200 50  0001 C CNN
 F 4 "C25726" H 9300 4200 50  0001 C CNN "LCSC"
 F 5 "0; 0; 90" H 9300 4200 50  0001 C CNN "JLCPCB_CORRECTION"
 	2    9300 4200
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L CustomDevice:R_Pack04_Split RN1
@@ -619,7 +619,7 @@ F 3 "" H 9300 4500 50  0001 C CNN
 F 4 "C25726" H 9300 4500 50  0001 C CNN "LCSC"
 F 5 "0; 0; 90" H 9300 4500 50  0001 C CNN "JLCPCB_CORRECTION"
 	3    9300 4500
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L CustomDevice:R_Pack04_Split RN1
@@ -632,7 +632,7 @@ F 3 "" H 9300 4800 50  0001 C CNN
 F 4 "C25726" H 9300 4800 50  0001 C CNN "LCSC"
 F 5 "0; 0; 90" H 9300 4800 50  0001 C CNN "JLCPCB_CORRECTION"
 	4    9300 4800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L CustomDevice:R_Pack04_Split RN1
@@ -645,7 +645,7 @@ F 3 "" H 9300 5100 50  0001 C CNN
 F 4 "C25726" H 9300 5100 50  0001 C CNN "LCSC"
 F 5 "0; 0; 90" H 9300 5100 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    9300 5100
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Text Label 9600 4300 2    39   ~ 0
 R
@@ -675,7 +675,7 @@ F 4 "C108793" H 9800 4500 50  0001 C CNN "LCSC"
 F 5 "Foshan NationStar" H 9800 4500 50  0001 C CNN "Manufacturer"
 F 6 "FM-B2020RGBA-HG" H 9800 4500 50  0001 C CNN "MPN"
 	1    9800 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 4300 9550 4300
@@ -716,16 +716,16 @@ F 3 "~" V 9800 5100 50  0001 C CNN
 F 4 "C72041" V 9800 5100 50  0001 C CNN "LCSC"
 F 5 "Blue" V 9800 5100 50  0001 C CNN "Color"
 	1    9800 5100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 5100 9100 5100
 Wire Notes Line
 	4550 5450 7200 5450
 Wire Notes Line
-	7200 5450 7200 550
+	7200 5450 7200 550 
 Wire Notes Line
-	7200 550  4550 550
+	7200 550  4550 550 
 Wire Notes Line
 	4550 550  4550 5450
 Connection ~ 7900 4800
@@ -772,11 +772,11 @@ F 1 "ESP32-WROOM-32E" V 6000 3000 50  0000 C CNN
 F 2 "1 My Footprints:ESP32-WROOM_WROVER_Dual_JLC_ManyVias" H 6000 1500 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 5700 3050 50  0001 C CNN
 F 4 "C701341" H 6000 3000 50  0001 C CNN "LCSC"
-F 5 "-3.325; 0; 0" H 6000 3000 50  0001 C CNN "JLCPCB_CORRECTION"
+F 5 "-2.875; 0; 0" H 6000 3000 50  0001 C CNN "JLCPCB_CORRECTION"
 F 6 "ESP32-WROOM-32E" H 6000 3000 50  0001 C CNN "MPN"
 F 7 "Espressif" H 6000 3000 50  0001 C CNN "Manufacturer"
 	1    6000 3000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
 CAN_RX
@@ -817,7 +817,7 @@ F 1 "+3V3" H 6015 1473 50  0000 C CNN
 F 2 "" H 6000 1300 50  0001 C CNN
 F 3 "" H 6000 1300 50  0001 C CNN
 	1    6000 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
@@ -828,7 +828,7 @@ F 1 "GND" H 6005 4377 50  0000 C CNN
 F 2 "" H 6000 4550 50  0001 C CNN
 F 3 "" H 6000 4550 50  0001 C CNN
 	1    6000 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky_Small_ALT D1
@@ -842,7 +842,7 @@ F 4 "C8598" H 1350 1100 50  0001 C CNN "LCSC"
 F 5 "B5819W" H 1350 1100 50  0001 C CNN "MPN"
 F 6 "CJ Electronics Tech" H 1350 1100 50  0001 C CNN "Mfg"
 	1    1350 1100
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0115
@@ -852,8 +852,8 @@ F 0 "#PWR0115" H 1350 650 50  0001 C CNN
 F 1 "+5V" H 1350 950 50  0000 C CNN
 F 2 "" H 1350 800 50  0001 C CNN
 F 3 "" H 1350 800 50  0001 C CNN
-	1    1350 800
-	1    0    0    -1
+	1    1350 800 
+	1    0    0    -1  
 $EndComp
 Text Label 6700 3500 0    50   ~ 0
 CAN_S
@@ -878,7 +878,7 @@ F 1 "MP" H 2100 7208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 2000 7250 50  0001 C CNN
 F 3 "~" H 2000 7250 50  0001 C CNN
 	1    2000 7250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C7
@@ -892,7 +892,7 @@ F 4 "C23733" H 1800 2650 50  0001 C CNN "LCSC"
 F 5 "Samsung" H 1800 2650 50  0001 C CNN "Manufacturer"
 F 6 "CL05A475MP5NRNC" H 1800 2650 50  0001 C CNN "MPN"
 	1    1800 2650
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1850 2500 1800 2500
@@ -918,7 +918,7 @@ F 4 "C19702" H 2500 5750 50  0001 C CNN "LCSC"
 F 5 "CL05A106MQ5NUNC" H 2500 5750 50  0001 C CNN "MPN"
 F 6 "Samsung" H 2500 5750 50  0001 C CNN "Manufacturer"
 	1    2500 5750
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L 1_My_Symbols:SolderJumper_2_Open_Small JP1
@@ -929,20 +929,20 @@ F 1 "CAN_T" V 9150 1200 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9200 1150 50  0001 C CNN
 F 3 "~" H 9200 1150 50  0001 C CNN
 	1    9200 1150
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	9200 1050 9200 950
+	9200 1050 9200 950 
 Wire Wire Line
 	9550 1350 9550 1650
 Wire Wire Line
 	9550 950  9550 1250
 Wire Wire Line
-	9200 950  9550 950
+	9200 950  9550 950 
 Wire Wire Line
 	9200 1650 9550 1650
 Wire Wire Line
-	9750 850  9750 950
+	9750 850  9750 950 
 Wire Wire Line
 	9750 1450 9750 1650
 Wire Wire Line
@@ -971,7 +971,7 @@ F 1 "GND" H 5155 2077 50  0000 C CNN
 F 2 "" H 5150 2250 50  0001 C CNN
 F 3 "" H 5150 2250 50  0001 C CNN
 	1    5150 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6000 1300 6000 1400
@@ -992,7 +992,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 800  1350 1000
 Wire Wire Line
-	2550 800  2550 850
+	2550 800  2550 850 
 Wire Wire Line
 	3700 1150 3700 1200
 $Comp
@@ -1007,7 +1007,7 @@ F 4 "C15525" H 3700 1050 50  0001 C CNN "LCSC"
 F 5 "CL05A106MQ5NUNC" H 3700 1050 50  0001 C CNN "MPN"
 F 6 "Samsung" H 3700 1050 50  0001 C CNN "Manufacturer"
 	1    3700 1050
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -1018,24 +1018,24 @@ F 1 "GND" H 3705 1027 50  0000 C CNN
 F 2 "" H 3700 1200 50  0001 C CNN
 F 3 "" H 3700 1200 50  0001 C CNN
 	1    3700 1200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1200 1750 850
+	1750 1200 1750 850 
 Wire Wire Line
-	3700 850  2550 850
+	3700 850  2550 850 
 Wire Wire Line
-	3700 850  3700 950
-Connection ~ 2550 850
+	3700 850  3700 950 
+Connection ~ 2550 850 
 Wire Wire Line
-	2550 850  2550 900
+	2550 850  2550 900 
 Wire Wire Line
-	2350 900  2350 850
+	2350 900  2350 850 
 Wire Wire Line
-	2350 850  2550 850
+	2350 850  2550 850 
 Wire Wire Line
-	2350 850  1750 850
-Connection ~ 2350 850
+	2350 850  1750 850 
+Connection ~ 2350 850 
 Wire Wire Line
 	2550 2850 2650 2850
 Wire Wire Line
@@ -1052,7 +1052,7 @@ F 4 "C59461" H 3500 5750 50  0001 C CNN "LCSC"
 F 5 "CL10A226MQ8NRNC" H 3500 5750 50  0001 C CNN "MPN"
 F 6 "Samsung" H 3500 5750 50  0001 C CNN "Manufacturer"
 	1    3500 5750
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1000 5850 1000 5950
@@ -1079,7 +1079,7 @@ F 1 "GND" H 3955 4177 50  0000 C CNN
 F 2 "" H 3950 4350 50  0001 C CNN
 F 3 "" H 3950 4350 50  0001 C CNN
 	1    3950 4350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 3800 3950 4250
@@ -1115,7 +1115,7 @@ F 1 "+3V3" H 8515 2923 50  0000 C CNN
 F 2 "" H 8500 2750 50  0001 C CNN
 F 3 "" H 8500 2750 50  0001 C CNN
 	1    8500 2750
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9700 2750 9700 2600
@@ -1138,7 +1138,7 @@ F 1 "GND" H 8005 3077 50  0000 C CNN
 F 2 "" H 8000 3250 50  0001 C CNN
 F 3 "" H 8000 3250 50  0001 C CNN
 	1    8000 3250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9250 3150 9200 3150
@@ -1153,7 +1153,7 @@ F 1 "OLED" H 7830 2951 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7830 2905 50  0001 L CNN
 F 3 "~" H 7750 3050 50  0001 C CNN
 	1    7750 3050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	7300 2300 10450 2300
@@ -1170,7 +1170,7 @@ F 1 "GND" H 9255 3077 50  0000 C CNN
 F 2 "" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0001 C CNN
 	1    9250 3250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_3_Open JP2
@@ -1181,7 +1181,7 @@ F 1 "VJ2" H 9950 2863 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 9950 2750 50  0001 C CNN
 F 3 "~" H 9950 2750 50  0001 C CNN
 	1    9950 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0102
@@ -1192,7 +1192,7 @@ F 1 "+5V" H 9700 2750 50  0000 C CNN
 F 2 "" H 9700 2600 50  0001 C CNN
 F 3 "" H 9700 2600 50  0001 C CNN
 	1    9700 2600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0101
@@ -1203,7 +1203,7 @@ F 1 "+3V3" H 10200 2750 50  0000 C CNN
 F 2 "" H 10200 2600 50  0001 C CNN
 F 3 "" H 10200 2600 50  0001 C CNN
 	1    10200 2600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9300 2850 0    50   ~ 0
 D_RXSDA
@@ -1220,7 +1220,7 @@ F 3 "~" H 9000 3050 50  0001 C CNN
 F 4 "C57844" H 9000 3050 50  0001 C CNN "LCSC"
 F 5 "Boomelec" H 9000 3050 50  0001 C CNN "Manufacturer"
 	1    9000 3050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
 CAN_RX
@@ -1255,7 +1255,7 @@ F 1 "GND" H 3500 6100 50  0000 C CNN
 F 2 "" H 3500 6250 50  0001 C CNN
 F 3 "" H 3500 6250 50  0001 C CNN
 	1    3500 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10000 4500 10100 4500
@@ -1313,7 +1313,7 @@ F 4 "C6186" H 3000 5550 50  0001 C CNN "LCSC"
 F 5 "AMS1117-3.3" H 3000 5550 50  0001 C CNN "MPN"
 F 6 "0; 0; 180" H 3000 5550 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    3000 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2700 5550 2500 5550
@@ -1343,7 +1343,7 @@ F 1 "GND_TIE" H 1750 6050 50  0000 C TNN
 F 2 "NetTie:NetTie-2_THT_Pad0.3mm" H 1750 6150 50  0001 C CNN
 F 3 "~" H 1750 6150 50  0001 C CNN
 	1    1750 6150
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1650 6150 1000 6150
@@ -1370,10 +1370,10 @@ Wire Notes Line
 Text Notes 6700 2400 0    50   ~ 0
 MTDI
 Wire Wire Line
-	9200 950  9050 950
+	9200 950  9050 950 
 Wire Wire Line
 	9050 950  9050 1200
-Connection ~ 9200 950
+Connection ~ 9200 950 
 Wire Wire Line
 	9050 1400 9050 1650
 Wire Wire Line
@@ -1399,7 +1399,7 @@ F 4 "C59461" H 7700 4600 50  0001 C CNN "LCSC"
 F 5 "CL10A226MQ8NRNC" H 7700 4600 50  0001 C CNN "MPN"
 F 6 "Samsung" H 7700 4600 50  0001 C CNN "Manufacturer"
 	1    7700 4600
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Text Label 6700 3800 0    50   ~ 0
 OLED_SDA
@@ -1417,11 +1417,11 @@ F 0 "#PWR0116" H 7650 650 50  0001 C CNN
 F 1 "+3V3" H 7650 950 50  0000 C CNN
 F 2 "" H 7650 800 50  0001 C CNN
 F 3 "" H 7650 800 50  0001 C CNN
-	1    7650 800
-	1    0    0    -1
+	1    7650 800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 800  8550 850
+	8550 800  8550 850 
 $Comp
 L Device:C_Small C1
 U 1 1 6034E166
@@ -1434,7 +1434,7 @@ F 4 "C19702" H 8050 1800 50  0001 C CNN "LCSC"
 F 5 "CL10A106KP8NNNC" H 8050 1800 50  0001 C CNN "MPN"
 F 6 "Samsung" H 8050 1800 50  0001 C CNN "Manufacturer"
 	1    8050 1800
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L 1_My_Symbols:SPBW06G-05 PS1
@@ -1446,22 +1446,22 @@ F 2 "SnapEDA-zip:CONV_SPBW06F-12" H 1900 5350 50  0001 L BNN
 F 3 "" H 1750 5750 50  0001 L BNN
 F 4 "MEANWELL" H 1750 5750 50  0001 C CNN "Manufacturer"
 	1    1750 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 1400 7650 850
+	7650 1400 7650 850 
 Wire Wire Line
 	7650 1400 8050 1400
 Wire Wire Line
-	7650 850  7900 850
-Connection ~ 7650 850
+	7650 850  7900 850 
+Connection ~ 7650 850 
 Wire Wire Line
-	7650 850  7650 800
+	7650 850  7650 800 
 Wire Wire Line
-	8100 850  8550 850
-Connection ~ 8550 850
+	8100 850  8550 850 
+Connection ~ 8550 850 
 Wire Wire Line
-	8550 850  8550 900
+	8550 850  8550 900 
 $Comp
 L power:+5V #PWR0119
 U 1 1 604091B2
@@ -1471,7 +1471,7 @@ F 1 "+5V" H 7650 1850 50  0000 C CNN
 F 2 "" H 7650 1700 50  0001 C CNN
 F 3 "" H 7650 1700 50  0001 C CNN
 	1    7650 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8150 1800 8550 1800
@@ -1493,8 +1493,8 @@ F 3 "~" H 8000 850 50  0001 C CNN
 F 4 "C1525" H 8000 850 50  0001 C CNN "LCSC"
 F 5 "CL05B104KO5NNNC" H 8000 850 50  0001 C CNN "MPN"
 F 6 "Samsung" H 8000 850 50  0001 C CNN "Manufacturer"
-	1    8000 850
-	0    -1   1    0
+	1    8000 850 
+	0    -1   1    0   
 $EndComp
 Wire Notes Line
 	6600 2500 6700 2500
@@ -1523,10 +1523,10 @@ F 0 "#FLG0101" H 9800 1025 50  0001 C CNN
 F 1 "PWR_FLAG" V 9800 1078 50  0000 L CNN
 F 2 "" H 9800 950 50  0001 C CNN
 F 3 "~" H 9800 950 50  0001 C CNN
-	1    9800 950
-	0    1    1    0
+	1    9800 950 
+	0    1    1    0   
 $EndComp
-Connection ~ 9750 950
+Connection ~ 9750 950 
 Wire Wire Line
 	9750 950  9750 1150
 $Comp
@@ -1538,7 +1538,7 @@ F 1 "PWR_FLAG" V 9800 1778 50  0000 L CNN
 F 2 "" H 9800 1650 50  0001 C CNN
 F 3 "~" H 9800 1650 50  0001 C CNN
 	1    9800 1650
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9800 1650 9750 1650
@@ -1546,7 +1546,7 @@ Connection ~ 9750 1650
 Wire Wire Line
 	9750 1650 9750 1750
 Wire Wire Line
-	9800 950  9750 950
+	9800 950  9750 950 
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 60403BE3
@@ -1556,6 +1556,6 @@ F 1 "Logo_Open_Hardware_Small" H 10150 6875 50  0001 C CNN
 F 2 "1 My Footprints:neggle-logo-0.12" H 10150 7100 50  0001 C CNN
 F 3 "~" H 10150 7100 50  0001 C CNN
 	1    10150 7100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
