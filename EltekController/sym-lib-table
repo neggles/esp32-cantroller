@@ -1,3 +1,2 @@
-(sym_lib_table
-  (lib (name EltekFlatpack2)(type Legacy)(uri "C:/Users/andrewh/OneDrive - cre.ative IT/Documents/KiCad/Archive/EltekFlatpack2-dumbTIbuck/EltekFlatpack2.lib")(options "")(descr ""))
-)
+(sym_lib_table    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/EltekController-archive.lib")(options "")(descr ""))
+)
