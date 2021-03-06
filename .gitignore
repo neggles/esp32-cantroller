@@ -64,3 +64,6 @@ fab
 # alternates
 EltekController/alternate
 kikit-docker-jlcfab.sh
+
+# logs
+*.log
