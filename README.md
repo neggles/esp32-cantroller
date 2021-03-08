@@ -26,7 +26,8 @@ I've probably made some really bad design choices here, please don't judge me.
 
 ## Repository Structure
 - `EltekController` contains the main schematics and board drawing
-- `EltekControllerS/EltekController.pretty` contains the board-specific footprints
+- `EltekController/EltekController.pretty` contains the board-specific footprints
+- `EltekController/shapes3D` contains the 3D models for parts on the board (and a bunch of extras from my various experiments)
 
 ## Building
 Simply call `make` in the top-top level directory. The `build` directory will then contain:
