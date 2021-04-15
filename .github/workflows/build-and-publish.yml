@@ -20,12 +20,13 @@ jobs:
       - name: Build 🔧
         uses: docker://yaqwsx/kikit:latest
         id: build
-        run:
-          make web
+        with:
+          entrypoint: "/bin/bash"
+          args: "-c make web"
 
       # deploy
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          folder: build/web # The folder the action should deploy.
