@@ -1,2 +1,4 @@
-(sym_lib_table    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/EltekController-archive.lib")(options "")(descr ""))
-)
+(sym_lib_table
+  (lib (name "archive")(type "Legacy")(uri "${KIPRJMOD}/EltekController-archive.lib")(options "")(descr ""))
+  (lib (name "EltekController-rescue")(type "Legacy")(uri "${KIPRJMOD}/EltekController-rescue.lib")(options "")(descr ""))
+)
